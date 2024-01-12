@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  .final {
+    margin-top: -60px; /* Adjust the top margin for smaller screens */
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+}
