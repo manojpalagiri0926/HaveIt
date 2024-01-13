@@ -12,34 +12,23 @@ Welcome to the Food Delivery App repository! This project is a food delivery app
 - **Payment Integration:** Secure payment options for a hassle-free transaction experience.
 - **Review and Ratings:** Allow customers to rate and review their orders and experiences.
 
-## Tech Stack
-- **Frontend:** [React](https://reactjs.org/), [Redux](https://redux.js.org/), [Material-UI](https://material-ui.com/)
-- **Backend:** [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/)
-- **Authentication:** [JWT](https://jwt.io/)
-- **Real-time Updates:** [Socket.io](https://socket.io/)
 
 ## Getting Started
 ### Prerequisites
-- Node.js and npm installed on your machine.
-- MongoDB installed locally or a MongoDB Atlas account.
+- Django need to be installed in your local with all configurations and also MySQL client
 
 ### Installation
 1. Clone the repository: `git clone https://github.com/your-username/food-delivery-app.git`
 2. Navigate to the project directory: `cd food-delivery-app`
 3. Install dependencies:
-   - Backend: `cd backend && npm install`
+   - Backend: `cd backend && pip install django,djnago-rest-framework`
    - Frontend: `cd frontend && npm install`
 
 ### Usage
-1. Start the backend server: `cd backend && npm start`
+1. Start the backend server: `cd backend && python maange.py runserver`
 2. Start the frontend development server: `cd frontend && npm start`
 3. Access the application at `http://localhost:3000` in your browser.
 
-## Contributing
-We welcome contributions! If you would like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 Special thanks to the contributors and open-source projects that made this project possible.
